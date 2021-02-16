@@ -3,11 +3,11 @@
 </p>
 
 <h1 align="center">
-    MyLibDialogFragment
+    EasyDialogFragment
 </h1>
 
 <p align="center">
-    <a><img src="https://img.shields.io/badge/Version-1.0.1-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-2.0.0-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Kotlin-Suport-green?logo=kotlin&style=flat"></a>
@@ -272,6 +272,8 @@ dialog.show(transaction, CustomMyLibDialog.TAG);
   - First Release
 - **1.0.1**
   - Add animation and set custom animation
+- **2.0.0**
+  - Support SDK 16
 
 ---
 # Contribution
