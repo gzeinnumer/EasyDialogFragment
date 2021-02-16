@@ -1,2 +1,3 @@
+include ':edf'
 include ':app'
 rootProject.name = "EasyDialogFragment"
