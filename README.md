@@ -182,8 +182,8 @@ Here is the style
 </resources>
 ```
 Style that i prepare for you
-- [anim_in](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/anim_in.xml) & [anim_out](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/anim_out.xml).
-- [slide_down](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/slide_down.xml) & [slide_up](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/slide_up.xml).
+- [anim_in](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/master/res/anim/anim_in.xml) & [anim_out](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/master/res/anim/anim_out.xml).
+- [slide_down](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/master/res/anim/slide_down.xml) & [slide_up](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/master/res/anim/slide_up.xml).
 
 #
 - Change Corner
@@ -236,10 +236,10 @@ getDialog().dismiss();
 </shape>
 ```
 Other Example:
-- Same Radius -> `R.drawable.rounded_corner` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/main/example/Shapes/rounded_corner.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/main/README_SHAPE.md#same-radius)
-- Different Radius -> `R.drawable.rounded_corner_2` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/main/example/Shapes/rounded_corner_2.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/main/README_SHAPE.md#different-radius)
-- Dialog 3D -> `R.drawable.rounded_layer` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/main/example/Shapes/rounded_layer.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/main/README_SHAPE.md#dialog-3d)
-- Shadow Dialog -> `R.drawable.dialog_shadow` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/main/example/Shapes/dialog_shadow.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/main/README_SHAPE.md#shadow-dialog)
+- Same Radius -> `R.drawable.rounded_corner` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/master/example/Shapes/rounded_corner.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/master/README_SHAPE.md#same-radius)
+- Different Radius -> `R.drawable.rounded_corner_2` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/master/example/Shapes/rounded_corner_2.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/master/README_SHAPE.md#different-radius)
+- Dialog 3D -> `R.drawable.rounded_layer` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/master/example/Shapes/rounded_layer.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/master/README_SHAPE.md#dialog-3d)
+- Shadow Dialog -> `R.drawable.dialog_shadow` [xml](https://github.com/gzeinnumer/DialogAndroid/blob/master/example/Shapes/dialog_shadow.xml) [Preview](https://github.com/gzeinnumer/DialogAndroid/blob/master/README_SHAPE.md#shadow-dialog)
 
 #
 ### Show The Dialog
@@ -262,7 +262,7 @@ dialog.show(transaction, CustomMyLibDialog.TAG);
 ---
 # Example Code/App
 
-**FullCode [MainActivity](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/main/java/com/gzeinnumer/easydialogfragment/MainActivity.java) & [CustomMyLibDialog](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/main/java/com/gzeinnumer/easydialogfragment/CustomMyLibDialog.java) &  [XML](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/main/res/layout/dialog.xml)**
+**FullCode [MainActivity](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/master/java/com/gzeinnumer/easydialogfragment/MainActivity.java) & [CustomMyLibDialog](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/master/java/com/gzeinnumer/easydialogfragment/CustomMyLibDialog.java) &  [XML](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/master/res/layout/dialog.xml)**
 
 [Sample Code And App](https://github.com/gzeinnumer/MyLibDialogFragmentExample)
 
