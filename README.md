@@ -182,8 +182,8 @@ Here is the style
 </resources>
 ```
 Style that i prepare for you
-- [anim_in](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/lib/src/main/res/anim/anim_in.xml) & [anim_out](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/lib/src/main/res/anim/anim_out.xml).
-- [slide_down](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/lib/src/main/res/anim/slide_down.xml) & [slide_up](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/lib/src/main/res/anim/slide_up.xml).
+- [anim_in](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/anim_in.xml) & [anim_out](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/anim_out.xml).
+- [slide_down](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/slide_down.xml) & [slide_up](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/edf/src/main/res/anim/slide_up.xml).
 
 #
 - Change Corner
