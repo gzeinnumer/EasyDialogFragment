@@ -262,7 +262,7 @@ dialog.show(transaction, CustomMyLibDialog.TAG);
 ---
 # Example Code/App
 
-**FullCode [MainActivity](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/master/java/com/gzeinnumer/easydialogfragment/MainActivity.java) & [CustomMyLibDialog](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/master/java/com/gzeinnumer/easydialogfragment/CustomMyLibDialog.java) &  [XML](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/master/res/layout/dialog.xml)**
+**FullCode [MainActivity](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/main/java/com/gzeinnumer/easydialogfragment/MainActivity.java) & [CustomMyLibDialog](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/main/java/com/gzeinnumer/easydialogfragment/CustomMyLibDialog.java) &  [XML](https://github.com/gzeinnumer/EasyDialogFragment/blob/master/app/src/main/res/layout/dialog.xml)**
 
 [Sample Code And App](https://github.com/gzeinnumer/MyLibDialogFragmentExample)
 
