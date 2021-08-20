@@ -21,7 +21,7 @@ public class MyLibDialog extends DialogFragment {
     protected double canvasWidth = 0.9;
     protected boolean isFullScreen = false;
     protected boolean enableBackButton = false;
-    protected int animationStyle = R.style.DialogStyle_In;
+    protected int animationStyle = R.style.DialogStyle;
 
     public MyLibDialog() {
     }

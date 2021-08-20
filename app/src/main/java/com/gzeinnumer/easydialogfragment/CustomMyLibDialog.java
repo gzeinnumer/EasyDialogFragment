@@ -14,7 +14,7 @@ import com.gzeinnumer.edf.MyLibDialog;
 public class CustomMyLibDialog extends MyLibDialog {
 
     public CustomMyLibDialog() {
-        super(R.style.DialogStyle_Slide);
+        super(R.style.DialogStyle);
     }
 
     public static CustomMyLibDialog newInstance() {

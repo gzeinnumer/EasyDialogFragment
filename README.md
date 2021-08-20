@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    <a><img src="https://img.shields.io/badge/Version-2.0.0-brightgreen.svg?style=flat"></a>
+    <a><img src="https://img.shields.io/badge/Version-2.0.1-brightgreen.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/ID-gzeinnumer-blue.svg?style=flat"></a>
     <a><img src="https://img.shields.io/badge/Java-Suport-green?logo=java&style=flat"></a>
     <a><img src="https://img.shields.io/badge/Kotlin-Suport-green?logo=kotlin&style=flat"></a>
@@ -42,6 +42,9 @@ allprojects {
 dependencies {
   ...
   implementation 'com.github.gzeinnumer:EasyDialogFragment:version'
+
+    implementation 'com.github.gzeinnumer:SimpleMaterialStyle:last-version'
+    //check last version on https://github.com/gzeinnumer/SimpleMaterialStyle
 }
 ```
 
@@ -55,6 +58,16 @@ dependencies {
 
 ---
 # Usage
+
+Add This Line to `res/color.xml`. **Important**
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>
+```
 
 ### DialogFragment.
 - Dialog View
@@ -274,6 +287,8 @@ dialog.show(transaction, CustomMyLibDialog.TAG);
   - Add animation and set custom animation
 - **2.0.0**
   - Support SDK 16
+- **2.0.1**
+  - Bug Fixing
 
 ---
 # Contribution
