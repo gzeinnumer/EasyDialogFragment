@@ -156,6 +156,9 @@ public class CustomMyLibDialog extends MyLibDialog {
 
         // set BackButton to dismiss dialog
         enableBackButton(true);
+
+        //set gravity dialog
+        setGravity(Gravity.BOTTOM);
     }
 
     ...
@@ -289,6 +292,8 @@ dialog.show(transaction, CustomMyLibDialog.TAG);
   - Support SDK 16
 - **2.0.1**
   - Bug Fixing
+- **2.1.0**
+  - Gravity
 
 ---
 # Contribution

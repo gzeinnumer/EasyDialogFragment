@@ -18,10 +18,11 @@ import androidx.fragment.app.DialogFragment;
 public class MyLibDialog extends DialogFragment {
 
     public static final String TAG = "BaseDialogFragment";
-    protected double canvasWidth = 0.9;
-    protected boolean isFullScreen = false;
-    protected boolean enableBackButton = false;
-    protected int animationStyle = R.style.DialogStyle;
+    private double canvasWidth = 0.9;
+    private boolean isFullScreen = false;
+    private boolean enableBackButton = false;
+    private int animationStyle = R.style.DialogStyle;
+    private int gravity = Gravity.CENTER;
 
     public MyLibDialog() {
     }
@@ -89,7 +90,7 @@ public class MyLibDialog extends DialogFragment {
             } else {
                 window.setLayout((int) (width * 0.9), height);
             }
-            window.setGravity(Gravity.CENTER);
+            window.setGravity(gravity);
         }
     }
 
@@ -101,15 +102,19 @@ public class MyLibDialog extends DialogFragment {
         return toolBarHeight;
     }
 
-    protected void setFullScreen(boolean isFullScreen) {
+    public void setFullScreen(boolean isFullScreen) {
         this.isFullScreen = isFullScreen;
     }
 
-    protected void setCanvasWidth(double canvasWidth) {
+    public void setCanvasWidth(double canvasWidth) {
         this.canvasWidth = canvasWidth;
     }
 
-    protected void enableBackButton(boolean enableBackButton) {
+    public void enableBackButton(boolean enableBackButton) {
         this.enableBackButton = enableBackButton;
+    }
+
+    public void setGravity(int gravity) {
+        this.gravity = gravity;
     }
 }

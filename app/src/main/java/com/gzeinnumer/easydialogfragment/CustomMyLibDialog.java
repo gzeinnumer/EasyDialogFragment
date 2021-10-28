@@ -1,6 +1,7 @@
 package com.gzeinnumer.easydialogfragment;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +32,7 @@ public class CustomMyLibDialog extends MyLibDialog {
 //        setFullScreen(true);
         setCanvasWidth(0.3);
 //        enableBackButton(true);
+        setGravity(Gravity.BOTTOM);
     }
 
     @Override
